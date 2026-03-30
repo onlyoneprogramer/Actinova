@@ -34,7 +34,7 @@
 [ Kill / Isolation / Logging ]
 
 
-📌 상세 구조는 → [docs/architecture.md](docs/architecture.md)
+📌 상세 구조는 → [doc/architecture.md](doc/architecture.md)
 
 ---
 
