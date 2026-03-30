@@ -21,18 +21,19 @@
 ## 🏗️ Architecture
 
 
-[ Kernel Events ]
-↓
-[ eBPF / Kernel Module ]
-↓
-[ VMI Layer ]
-↓
-[ Behavior Analysis ]
-↓
-[ Response Engine ]
-↓
-[ Kill / Isolation / Logging ]
++-------------------+     +---------------------+     +----------------------+
+|    Guest OS       |     |   VMI Layer         |     |   Actinova Engine    |
+|-------------------|     |---------------------|     |----------------------|
+| User Process      |     | Memory Inspect      |     | Event Collector      |
+| ↓                 | --> | Process Inspect     | --> | Behavior Analysis    |
+| System Call       |     | Hidden Detection    |     | Threat Detection     |
+| ↓                 |     +---------------------+     | Response Engine      |
+| eBPF Programs     | --------(event stream)------->  | Kill / Isolation     |
+| ↓                 |                                +----------------------+
+| Kernel Module     |
++-------------------+
 
+           <-------- Response Action --------
 
 📌 상세 구조는 → [doc/architecture.md](doc/architecture.md)
 
