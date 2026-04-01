@@ -124,21 +124,21 @@ core/        # kernel, eBPF, VMI 핵심 로직
 agent/       # 수집 및 대응 에이전트
 backend/     # 분석 엔진 및 API
 gui/         # 모니터링 및 관리 인터페이스
-docs/        # 기술 문서
+doc/        # 기술 문서
 ```
 
 ---
 
 ## 📚 Documentation
 
-* [Overview](docs/overview.md)
-* [Architecture](docs/architecture.md)
-* [Threat Model](docs/threat-model.md)
-* [Detection](docs/detection.md)
-* [Response](docs/response.md)
-* [Deployment](docs/deployment.md)
-* [Roadmap](docs/roadmap.md)
-* [FAQ](docs/faq.md)
+* [Overview](doc/overview.md)
+* [Architecture](doc/architecture.md)
+* [Threat Model](doc/threat-model.md)
+* [Detection](doc/detection.md)
+* [Response](doc/response.md)
+* [Deployment](doc/deployment.md)
+* [Roadmap](doc/roadmap.md)
+* [FAQ](doc/faq.md)
 
 ---
 
