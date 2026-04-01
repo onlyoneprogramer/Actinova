@@ -44,7 +44,7 @@
 
 ## 🧪 Demo (실제 동작 증명)
 
-👉 [BPFdoor Detection Scenario](docs/demo.md)
+👉 [BPFdoor Detection Scenario](doc/demo.md)
 
 ### 📌 Demo 포함 내용
 
@@ -73,7 +73,7 @@
 [ Kill / Isolation / Logging ]
 ```
 
-📌 상세 구조 → [docs/architecture.md](docs/architecture.md)
+📌 상세 구조 → [docs/architecture.md](doc/architecture.md)
 
 ---
 
