@@ -166,3 +166,6 @@ Actinova는 이를 해결하기 위해
 Actinova는 단순한 탐지 시스템이 아닌
 
 👉 **공격을 이해하고, 실시간으로 대응하는 커널 보안 플랫폼**입니다.
+
+
+https://actinovasites.vercel.app/
